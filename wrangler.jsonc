@@ -9,5 +9,11 @@
       "/api/*"
     ]
   },
-  "main": "./worker/index.ts"
+  "main": "./worker/index.ts",
+  "observability": {
+    "logs": {
+      "enabled": false,
+      "invocation_logs": true
+    }
+  }
 }
